@@ -1,0 +1,12 @@
+path:
+    train: /home/jone/NLP/Dataset/train_category.csv
+    test: /home/jone/NLP/Dataset/test_category.csv
+
+
+params:
+    max_length: 512
+    batch_size: 6
+    warmup_ratio: 0.1
+    num_epochs: 5
+    max_grad_norm: 1
+    learning_rate: 5e-5
